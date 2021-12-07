@@ -1,0 +1,10 @@
+USE EducationDB;
+
+CREATE TABLE TeachingArrangement (
+    TAid BIGINT AUTO_INCREMENT PRIMARY KEY,
+    Tno BIGINT NOT NULL,
+    Cno BIGINT NOT NULL,
+    UNIQUE INDEX (Tno, Cno),
+    FOREIGN KEY (Tno) REFERENCES Teacher(Tno),
+    FOREIGN KEY (Cno) REFERENCES Course(Cno)
+);

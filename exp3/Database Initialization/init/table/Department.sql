@@ -1,0 +1,6 @@
+USE EducationDB;
+
+CREATE TABLE Department (
+    Dno BIGINT AUTO_INCREMENT PRIMARY KEY,
+    Dname VARCHAR(32) NOT NULL UNIQUE
+);

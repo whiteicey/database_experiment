@@ -1,0 +1,11 @@
+pers/db/entity/ColumnInfo.class
+pers/db/App.class
+pers/db/service/dao/impl/QueryAnyDAOServiceImpl.class
+pers/db/service/impl/QueryAnyServiceImpl.class
+pers/db/errorhandle/GlobalErrorHandler.class
+pers/db/controller/HiController.class
+pers/db/controller/QueryAnyController.class
+pers/db/service/dao/QueryAnyDAOService.class
+pers/db/entity/Table.class
+pers/db/mapper/AnyMapper.class
+pers/db/service/QueryAnyService.class
